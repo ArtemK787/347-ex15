@@ -4,7 +4,7 @@ LABEL version="2.0-countries"
 LABEL description="Application PHP affichant les vainqueurs de la Coupe du Monde avec filtre par année et par équipe"
 LABEL maintainer="Artem Kliuchko"
 
-# var/www/html pour ce php
+# test push
 WORKDIR /var/www/html
 
 COPY src/index.php /var/www/html/index.php
